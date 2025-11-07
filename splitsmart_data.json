@@ -1,0 +1,50 @@
+{
+    "users": [
+        {
+            "name": "Aman",
+            "email": "aman.r"
+        },
+        {
+            "name": "Amarjeet",
+            "email": "amarjeet.r"
+        },
+        {
+            "name": "Deepanshu",
+            "email": "deepanshu.p"
+        }
+    ],
+    "groups": [
+        {
+            "name": "LLM",
+            "members": [
+                "Aman",
+                "Amarjeet",
+                "Deepanshu"
+            ],
+            "expenses": [
+                {
+                    "description": "Tea",
+                    "amount": 30.0,
+                    "paid_by": "Aman",
+                    "participants": [
+                        "Aman",
+                        "Amarjeet",
+                        "Deepanshu"
+                    ],
+                    "shares": {
+                        "Aman": 10.0,
+                        "Amarjeet": 10.0,
+                        "Deepanshu": 10.0
+                    }
+                }
+            ],
+            "settlements": [
+                {
+                    "from": "Amarjeet",
+                    "to": "Aman",
+                    "amount": 0.0
+                }
+            ]
+        }
+    ]
+}
